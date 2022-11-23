@@ -1,4 +1,5 @@
 # 安装编译
+nginx中新增lua-nginx-module，同时支持x-waf在idea中编程调试。
 安装过程参考：
 https://blog.csdn.net/liaomin416100569/article/details/127982273?spm=1001.2014.3001.5501
 
