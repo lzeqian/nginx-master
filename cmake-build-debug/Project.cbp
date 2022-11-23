@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/d/code1/nginx-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/code1/nginx-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/code1/nginx-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/code1/nginx-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/code1/nginx-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/d/code1/nginx-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/code1/nginx-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/code1/nginx-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/code1/nginx-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/code1/nginx-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nginx">
+				<Option output="/cygdrive/d/code1/nginx-master/cmake-build-debug/nginx.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/code1/nginx-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/code1/nginx-master/."/>
+					<Add directory="/cygdrive/d/code1/nginx-master/src/core"/>
+					<Add directory="/cygdrive/d/code1/nginx-master/src/event"/>
+					<Add directory="/cygdrive/d/code1/nginx-master/src/event/modules"/>
+					<Add directory="/cygdrive/d/code1/nginx-master/src/os/unix"/>
+					<Add directory="/cygdrive/d/code1/nginx-master/./extend/ngx_devel_kit-0.3.0/objs"/>
+					<Add directory="/cygdrive/d/code1/nginx-master/objs/addon/ndk"/>
+					<Add directory="/cygdrive/d/code1/nginx-master/./extend/lua-nginx-module-0.10.22/src/api"/>
+					<Add directory="/cygdrive/d/code1/nginx-master/objs"/>
+					<Add directory="/cygdrive/d/code1/nginx-master/src/http"/>
+					<Add directory="/cygdrive/d/code1/nginx-master/src/http/modules"/>
+					<Add directory="/cygdrive/d/code1/nginx-master/./extend/ngx_devel_kit-0.3.0/src"/>
+					<Add directory="/usr/local/LuaJIT/include/luajit-2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/code1/nginx-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 nginx"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/code1/nginx-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/code1/nginx-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/code1/nginx-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nginx/fast">
+				<Option output="/cygdrive/d/code1/nginx-master/cmake-build-debug/nginx.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/code1/nginx-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/code1/nginx-master/."/>
+					<Add directory="/cygdrive/d/code1/nginx-master/src/core"/>
+					<Add directory="/cygdrive/d/code1/nginx-master/src/event"/>
+					<Add directory="/cygdrive/d/code1/nginx-master/src/event/modules"/>
+					<Add directory="/cygdrive/d/code1/nginx-master/src/os/unix"/>
+					<Add directory="/cygdrive/d/code1/nginx-master/./extend/ngx_devel_kit-0.3.0/objs"/>
+					<Add directory="/cygdrive/d/code1/nginx-master/objs/addon/ndk"/>
+					<Add directory="/cygdrive/d/code1/nginx-master/./extend/lua-nginx-module-0.10.22/src/api"/>
+					<Add directory="/cygdrive/d/code1/nginx-master/objs"/>
+					<Add directory="/cygdrive/d/code1/nginx-master/src/http"/>
+					<Add directory="/cygdrive/d/code1/nginx-master/src/http/modules"/>
+					<Add directory="/cygdrive/d/code1/nginx-master/./extend/ngx_devel_kit-0.3.0/src"/>
+					<Add directory="/usr/local/LuaJIT/include/luajit-2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/code1/nginx-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 nginx/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/code1/nginx-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/code1/nginx-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/code1/nginx-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/d/code1/nginx-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/code1/nginx-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/code1/nginx-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/code1/nginx-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/code1/nginx-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_accessby.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_accessby.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_api.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_args.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_args.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_balancer.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_balancer.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_bodyfilterby.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_bodyfilterby.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_cache.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_cache.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_capturefilter.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_capturefilter.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_clfactory.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_clfactory.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_config.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_config.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_consts.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_consts.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_contentby.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_contentby.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_control.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_control.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_coroutine.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_coroutine.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_ctx.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_ctx.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_directive.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_directive.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_exception.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_exception.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_exitworkerby.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_exitworkerby.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_headerfilterby.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_headerfilterby.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_headers.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_headers.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_headers_in.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_headers_in.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_headers_out.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_headers_out.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_initby.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_initby.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_initworkerby.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_initworkerby.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_input_filters.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_input_filters.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_lex.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_lex.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_log.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_log.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_log_ringbuf.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_log_ringbuf.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_logby.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_logby.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_misc.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_misc.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_ndk.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_ndk.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_output.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_output.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_pcrefix.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_pcrefix.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_phase.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_pipe.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_pipe.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_regex.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_req_body.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_req_body.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_req_method.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_rewriteby.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_rewriteby.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_script.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_script.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_semaphore.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_semaphore.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_setby.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_setby.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_shdict.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_shdict.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_sleep.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_sleep.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_socket_tcp.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_socket_tcp.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_socket_udp.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_socket_udp.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_ssl.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_ssl.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_ssl_certby.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_ssl_certby.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_ssl_client_helloby.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_ssl_client_helloby.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_ssl_ocsp.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_ssl_session_fetchby.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_ssl_session_fetchby.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_ssl_session_storeby.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_ssl_session_storeby.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_string.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_string.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_subrequest.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_subrequest.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_time.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_timer.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_timer.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_uri.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_uri.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_uthread.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_uthread.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_util.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_util.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_variable.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_worker.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_worker_thread.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/lua-nginx-module-0.10.22/src/ngx_http_lua_worker_thread.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/ngx_devel_kit-0.3.0/src/ndk.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/extend/ngx_devel_kit-0.3.0/src/ndk.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/objs/ngx_modules.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/nginx.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/nginx.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_array.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_array.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_buf.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_buf.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_conf_file.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_conf_file.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_connection.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_connection.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_cpuinfo.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_crc32.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_crc32.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_crypt.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_crypt.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_cycle.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_cycle.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_file.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_file.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_hash.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_hash.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_inet.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_inet.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_list.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_list.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_log.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_log.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_md5.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_md5.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_module.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_murmurhash.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_murmurhash.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_open_file_cache.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_open_file_cache.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_output_chain.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_palloc.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_palloc.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_parse.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_parse.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_parse_time.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_parse_time.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_proxy_protocol.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_proxy_protocol.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_queue.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_queue.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_radix_tree.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_radix_tree.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_rbtree.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_rbtree.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_regex.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_regex.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_resolver.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_resolver.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_rwlock.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_rwlock.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_sha1.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_sha1.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_shmtx.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_shmtx.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_slab.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_slab.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_spinlock.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_string.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_string.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_syslog.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_syslog.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_times.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/core/ngx_times.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/event/modules/ngx_poll_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/event/modules/ngx_select_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/event/ngx_event.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/event/ngx_event.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/event/ngx_event_accept.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/event/ngx_event_connect.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/event/ngx_event_connect.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/event/ngx_event_pipe.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/event/ngx_event_pipe.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/event/ngx_event_posted.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/event/ngx_event_posted.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/event/ngx_event_timer.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/event/ngx_event_timer.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/event/ngx_event_udp.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/event/ngx_event_udp.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_access_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_auth_basic_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_autoindex_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_browser_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_charset_filter_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_chunked_filter_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_empty_gif_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_fastcgi_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_geo_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_gzip_filter_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_headers_filter_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_index_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_limit_conn_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_limit_req_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_log_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_map_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_memcached_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_mirror_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_not_modified_filter_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_proxy_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_range_filter_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_referer_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_rewrite_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_scgi_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_split_clients_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_ssi_filter_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_ssi_filter_module.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_static_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_try_files_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_upstream_hash_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_upstream_ip_hash_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_upstream_keepalive_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_upstream_least_conn_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_upstream_random_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_upstream_zone_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_userid_filter_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/modules/ngx_http_uwsgi_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/ngx_http.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/ngx_http.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/ngx_http_copy_filter_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/ngx_http_core_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/ngx_http_core_module.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/ngx_http_file_cache.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/ngx_http_header_filter_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/ngx_http_parse.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/ngx_http_postpone_filter_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/ngx_http_request.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/ngx_http_request.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/ngx_http_request_body.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/ngx_http_script.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/ngx_http_script.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/ngx_http_special_response.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/ngx_http_upstream.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/ngx_http_upstream.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/ngx_http_upstream_round_robin.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/ngx_http_upstream_round_robin.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/ngx_http_variables.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/ngx_http_variables.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/http/ngx_http_write_filter_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_alloc.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_alloc.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_channel.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_channel.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_daemon.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_dlopen.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_dlopen.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_errno.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_errno.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_files.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_files.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_posix_init.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_process.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_process.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_process_cycle.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_process_cycle.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_readv_chain.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_recv.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_send.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_setaffinity.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_setaffinity.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_setproctitle.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_setproctitle.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_shmem.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_shmem.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_socket.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_socket.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_time.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_time.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_udp_recv.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_udp_send.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_udp_sendmsg_chain.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_user.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_user.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/src/os/unix/ngx_writev_chain.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/code1/nginx-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

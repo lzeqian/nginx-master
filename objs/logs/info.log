@@ -1,0 +1,402 @@
+2022/11/23 10:47:45 [notice] 9568#0: using the "select" event method
+2022/11/23 10:47:45 [notice] 9568#0: nginx/1.23.2
+2022/11/23 10:47:45 [notice] 9568#0: built by gcc 9.3.0 (GCC) 
+2022/11/23 10:47:45 [notice] 9568#0: getrlimit(RLIMIT_NOFILE): 256:3200
+2022/11/23 10:48:09 [error] 9568#0: *1 lua entry thread aborted: runtime error: /cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:22: module 'mobdebug' not found:
+	no field package.preload['mobdebug']
+	no file '/cygdrive/d/code1/nginx-master/conf/x-waf/mobdebug.lua'
+	no file '/usr/local/lib/lua/mobdebug.lua'
+	no file './mobdebug.lua'
+	no file '/usr/local/LuaJIT/share/luajit-2.1.0-beta3/mobdebug.lua'
+	no file '/usr/local/share/lua/5.1/mobdebug.lua'
+	no file '/usr/local/share/lua/5.1/mobdebug/init.lua'
+	no file '/usr/local/LuaJIT/share/lua/5.1/mobdebug.lua'
+	no file '/usr/local/LuaJIT/share/lua/5.1/mobdebug/init.lua'
+	no file './mobdebug.so'
+	no file '/usr/local/lib/lua/5.1/mobdebug.so'
+	no file '/usr/local/LuaJIT/lib/lua/5.1/mobdebug.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:22: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/11/23 10:48:09 [error] 9568#0: *1 lua entry thread aborted: runtime error: /cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:22: module 'mobdebug' not found:
+	no field package.preload['mobdebug']
+	no file '/cygdrive/d/code1/nginx-master/conf/x-waf/mobdebug.lua'
+	no file '/usr/local/lib/lua/mobdebug.lua'
+	no file './mobdebug.lua'
+	no file '/usr/local/LuaJIT/share/luajit-2.1.0-beta3/mobdebug.lua'
+	no file '/usr/local/share/lua/5.1/mobdebug.lua'
+	no file '/usr/local/share/lua/5.1/mobdebug/init.lua'
+	no file '/usr/local/LuaJIT/share/lua/5.1/mobdebug.lua'
+	no file '/usr/local/LuaJIT/share/lua/5.1/mobdebug/init.lua'
+	no file './mobdebug.so'
+	no file '/usr/local/lib/lua/5.1/mobdebug.so'
+	no file '/usr/local/LuaJIT/lib/lua/5.1/mobdebug.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:22: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/11/23 10:48:10 [error] 9568#0: *2 lua entry thread aborted: runtime error: /cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:22: module 'mobdebug' not found:
+	no field package.preload['mobdebug']
+	no file '/cygdrive/d/code1/nginx-master/conf/x-waf/mobdebug.lua'
+	no file '/usr/local/lib/lua/mobdebug.lua'
+	no file './mobdebug.lua'
+	no file '/usr/local/LuaJIT/share/luajit-2.1.0-beta3/mobdebug.lua'
+	no file '/usr/local/share/lua/5.1/mobdebug.lua'
+	no file '/usr/local/share/lua/5.1/mobdebug/init.lua'
+	no file '/usr/local/LuaJIT/share/lua/5.1/mobdebug.lua'
+	no file '/usr/local/LuaJIT/share/lua/5.1/mobdebug/init.lua'
+	no file './mobdebug.so'
+	no file '/usr/local/lib/lua/5.1/mobdebug.so'
+	no file '/usr/local/LuaJIT/lib/lua/5.1/mobdebug.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:22: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/hello"
+2022/11/23 10:48:10 [error] 9568#0: *2 lua entry thread aborted: runtime error: /cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:22: module 'mobdebug' not found:
+	no field package.preload['mobdebug']
+	no file '/cygdrive/d/code1/nginx-master/conf/x-waf/mobdebug.lua'
+	no file '/usr/local/lib/lua/mobdebug.lua'
+	no file './mobdebug.lua'
+	no file '/usr/local/LuaJIT/share/luajit-2.1.0-beta3/mobdebug.lua'
+	no file '/usr/local/share/lua/5.1/mobdebug.lua'
+	no file '/usr/local/share/lua/5.1/mobdebug/init.lua'
+	no file '/usr/local/LuaJIT/share/lua/5.1/mobdebug.lua'
+	no file '/usr/local/LuaJIT/share/lua/5.1/mobdebug/init.lua'
+	no file './mobdebug.so'
+	no file '/usr/local/lib/lua/5.1/mobdebug.so'
+	no file '/usr/local/LuaJIT/lib/lua/5.1/mobdebug.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:22: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/hello"
+2022/11/23 10:48:31 [error] 9568#0: *3 lua entry thread aborted: runtime error: /cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:22: module 'mobdebug' not found:
+	no field package.preload['mobdebug']
+	no file '/cygdrive/d/code1/nginx-master/conf/x-waf/mobdebug.lua'
+	no file '/usr/local/lib/lua/mobdebug.lua'
+	no file './mobdebug.lua'
+	no file '/usr/local/LuaJIT/share/luajit-2.1.0-beta3/mobdebug.lua'
+	no file '/usr/local/share/lua/5.1/mobdebug.lua'
+	no file '/usr/local/share/lua/5.1/mobdebug/init.lua'
+	no file '/usr/local/LuaJIT/share/lua/5.1/mobdebug.lua'
+	no file '/usr/local/LuaJIT/share/lua/5.1/mobdebug/init.lua'
+	no file './mobdebug.so'
+	no file '/usr/local/lib/lua/5.1/mobdebug.so'
+	no file '/usr/local/LuaJIT/lib/lua/5.1/mobdebug.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:22: in main chunk, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 10:48:31 [error] 9568#0: *3 lua entry thread aborted: runtime error: /cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:22: module 'mobdebug' not found:
+	no field package.preload['mobdebug']
+	no file '/cygdrive/d/code1/nginx-master/conf/x-waf/mobdebug.lua'
+	no file '/usr/local/lib/lua/mobdebug.lua'
+	no file './mobdebug.lua'
+	no file '/usr/local/LuaJIT/share/luajit-2.1.0-beta3/mobdebug.lua'
+	no file '/usr/local/share/lua/5.1/mobdebug.lua'
+	no file '/usr/local/share/lua/5.1/mobdebug/init.lua'
+	no file '/usr/local/LuaJIT/share/lua/5.1/mobdebug.lua'
+	no file '/usr/local/LuaJIT/share/lua/5.1/mobdebug/init.lua'
+	no file './mobdebug.so'
+	no file '/usr/local/lib/lua/5.1/mobdebug.so'
+	no file '/usr/local/LuaJIT/lib/lua/5.1/mobdebug.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:22: in main chunk, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 10:48:31 [error] 9568#0: *4 lua entry thread aborted: runtime error: /cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:22: module 'mobdebug' not found:
+	no field package.preload['mobdebug']
+	no file '/cygdrive/d/code1/nginx-master/conf/x-waf/mobdebug.lua'
+	no file '/usr/local/lib/lua/mobdebug.lua'
+	no file './mobdebug.lua'
+	no file '/usr/local/LuaJIT/share/luajit-2.1.0-beta3/mobdebug.lua'
+	no file '/usr/local/share/lua/5.1/mobdebug.lua'
+	no file '/usr/local/share/lua/5.1/mobdebug/init.lua'
+	no file '/usr/local/LuaJIT/share/lua/5.1/mobdebug.lua'
+	no file '/usr/local/LuaJIT/share/lua/5.1/mobdebug/init.lua'
+	no file './mobdebug.so'
+	no file '/usr/local/lib/lua/5.1/mobdebug.so'
+	no file '/usr/local/LuaJIT/lib/lua/5.1/mobdebug.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:22: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:48:31 [error] 9568#0: *4 lua entry thread aborted: runtime error: /cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:22: module 'mobdebug' not found:
+	no field package.preload['mobdebug']
+	no file '/cygdrive/d/code1/nginx-master/conf/x-waf/mobdebug.lua'
+	no file '/usr/local/lib/lua/mobdebug.lua'
+	no file './mobdebug.lua'
+	no file '/usr/local/LuaJIT/share/luajit-2.1.0-beta3/mobdebug.lua'
+	no file '/usr/local/share/lua/5.1/mobdebug.lua'
+	no file '/usr/local/share/lua/5.1/mobdebug/init.lua'
+	no file '/usr/local/LuaJIT/share/lua/5.1/mobdebug.lua'
+	no file '/usr/local/LuaJIT/share/lua/5.1/mobdebug/init.lua'
+	no file './mobdebug.so'
+	no file '/usr/local/lib/lua/5.1/mobdebug.so'
+	no file '/usr/local/LuaJIT/lib/lua/5.1/mobdebug.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:22: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:48:33 [error] 9568#0: *5 lua entry thread aborted: runtime error: /cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:22: module 'mobdebug' not found:
+	no field package.preload['mobdebug']
+	no file '/cygdrive/d/code1/nginx-master/conf/x-waf/mobdebug.lua'
+	no file '/usr/local/lib/lua/mobdebug.lua'
+	no file './mobdebug.lua'
+	no file '/usr/local/LuaJIT/share/luajit-2.1.0-beta3/mobdebug.lua'
+	no file '/usr/local/share/lua/5.1/mobdebug.lua'
+	no file '/usr/local/share/lua/5.1/mobdebug/init.lua'
+	no file '/usr/local/LuaJIT/share/lua/5.1/mobdebug.lua'
+	no file '/usr/local/LuaJIT/share/lua/5.1/mobdebug/init.lua'
+	no file './mobdebug.so'
+	no file '/usr/local/lib/lua/5.1/mobdebug.so'
+	no file '/usr/local/LuaJIT/lib/lua/5.1/mobdebug.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:22: in main chunk, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 10:48:33 [error] 9568#0: *5 lua entry thread aborted: runtime error: /cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:22: module 'mobdebug' not found:
+	no field package.preload['mobdebug']
+	no file '/cygdrive/d/code1/nginx-master/conf/x-waf/mobdebug.lua'
+	no file '/usr/local/lib/lua/mobdebug.lua'
+	no file './mobdebug.lua'
+	no file '/usr/local/LuaJIT/share/luajit-2.1.0-beta3/mobdebug.lua'
+	no file '/usr/local/share/lua/5.1/mobdebug.lua'
+	no file '/usr/local/share/lua/5.1/mobdebug/init.lua'
+	no file '/usr/local/LuaJIT/share/lua/5.1/mobdebug.lua'
+	no file '/usr/local/LuaJIT/share/lua/5.1/mobdebug/init.lua'
+	no file './mobdebug.so'
+	no file '/usr/local/lib/lua/5.1/mobdebug.so'
+	no file '/usr/local/LuaJIT/lib/lua/5.1/mobdebug.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:22: in main chunk, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 10:48:33 [error] 9568#0: *6 lua entry thread aborted: runtime error: /cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:22: module 'mobdebug' not found:
+	no field package.preload['mobdebug']
+	no file '/cygdrive/d/code1/nginx-master/conf/x-waf/mobdebug.lua'
+	no file '/usr/local/lib/lua/mobdebug.lua'
+	no file './mobdebug.lua'
+	no file '/usr/local/LuaJIT/share/luajit-2.1.0-beta3/mobdebug.lua'
+	no file '/usr/local/share/lua/5.1/mobdebug.lua'
+	no file '/usr/local/share/lua/5.1/mobdebug/init.lua'
+	no file '/usr/local/LuaJIT/share/lua/5.1/mobdebug.lua'
+	no file '/usr/local/LuaJIT/share/lua/5.1/mobdebug/init.lua'
+	no file './mobdebug.so'
+	no file '/usr/local/lib/lua/5.1/mobdebug.so'
+	no file '/usr/local/LuaJIT/lib/lua/5.1/mobdebug.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:22: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:48:33 [error] 9568#0: *6 lua entry thread aborted: runtime error: /cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:22: module 'mobdebug' not found:
+	no field package.preload['mobdebug']
+	no file '/cygdrive/d/code1/nginx-master/conf/x-waf/mobdebug.lua'
+	no file '/usr/local/lib/lua/mobdebug.lua'
+	no file './mobdebug.lua'
+	no file '/usr/local/LuaJIT/share/luajit-2.1.0-beta3/mobdebug.lua'
+	no file '/usr/local/share/lua/5.1/mobdebug.lua'
+	no file '/usr/local/share/lua/5.1/mobdebug/init.lua'
+	no file '/usr/local/LuaJIT/share/lua/5.1/mobdebug.lua'
+	no file '/usr/local/LuaJIT/share/lua/5.1/mobdebug/init.lua'
+	no file './mobdebug.so'
+	no file '/usr/local/lib/lua/5.1/mobdebug.so'
+	no file '/usr/local/LuaJIT/lib/lua/5.1/mobdebug.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:22: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:49:33 [info] 9568#0: *7 client timed out (116: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/11/23 10:50:37 [notice] 9583#0: using the "select" event method
+2022/11/23 10:50:37 [notice] 9583#0: nginx/1.23.2
+2022/11/23 10:50:37 [notice] 9583#0: built by gcc 9.3.0 (GCC) 
+2022/11/23 10:50:37 [notice] 9583#0: getrlimit(RLIMIT_NOFILE): 256:3200
+2022/11/23 10:50:41 [notice] 9583#0: *1 [lua] waf.lua:52: white_ip_check(): white_ip_check, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 10:50:41 [notice] 9583#0: *1 [lua] waf.lua:84: black_ip_check(): black_ip_check, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 10:50:41 [notice] 9583#0: *1 [lua] waf.lua:213: user_agent_attack_check(): user_agent_attack_check, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 10:50:41 [notice] 9583#0: *1 [lua] waf.lua:104: white_url_check(): white_url_check, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 10:50:41 [notice] 9583#0: *1 [lua] waf.lua:167: url_attack_check(): url_attack_check, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 10:50:41 [notice] 9583#0: *1 [lua] waf.lua:120: cc_attack_check(): cc_attack_check, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 10:50:41 [error] 9583#0: *1 lua entry thread aborted: runtime error: /cygdrive/d/code1/nginx-master/conf/x-waf/waf.lua:127: attempt to index local 'limit' (a nil value)
+stack traceback:
+coroutine 0:
+	/cygdrive/d/code1/nginx-master/conf/x-waf/waf.lua: in function 'cc_attack_check'
+	/cygdrive/d/code1/nginx-master/conf/x-waf/waf.lua:278: in function 'check'
+	/cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:24: in main chunk, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 10:50:41 [notice] 9583#0: *1 [lua] waf.lua:52: white_ip_check(): white_ip_check, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 10:50:41 [notice] 9583#0: *1 [lua] waf.lua:84: black_ip_check(): black_ip_check, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 10:50:41 [notice] 9583#0: *1 [lua] waf.lua:213: user_agent_attack_check(): user_agent_attack_check, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 10:50:41 [notice] 9583#0: *1 [lua] waf.lua:104: white_url_check(): white_url_check, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 10:50:41 [notice] 9583#0: *1 [lua] waf.lua:167: url_attack_check(): url_attack_check, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 10:50:41 [notice] 9583#0: *1 [lua] waf.lua:120: cc_attack_check(): cc_attack_check, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 10:50:41 [error] 9583#0: *1 lua entry thread aborted: runtime error: /cygdrive/d/code1/nginx-master/conf/x-waf/waf.lua:127: attempt to index local 'limit' (a nil value)
+stack traceback:
+coroutine 0:
+	/cygdrive/d/code1/nginx-master/conf/x-waf/waf.lua: in function 'cc_attack_check'
+	/cygdrive/d/code1/nginx-master/conf/x-waf/waf.lua:278: in function 'check'
+	/cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:24: in main chunk, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 10:50:41 [notice] 9583#0: *2 [lua] waf.lua:52: white_ip_check(): white_ip_check, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:50:41 [notice] 9583#0: *2 [lua] waf.lua:84: black_ip_check(): black_ip_check, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:50:41 [notice] 9583#0: *2 [lua] waf.lua:213: user_agent_attack_check(): user_agent_attack_check, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:50:41 [notice] 9583#0: *2 [lua] waf.lua:104: white_url_check(): white_url_check, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:50:41 [notice] 9583#0: *2 [lua] waf.lua:167: url_attack_check(): url_attack_check, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:50:41 [notice] 9583#0: *2 [lua] waf.lua:120: cc_attack_check(): cc_attack_check, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:50:41 [error] 9583#0: *2 lua entry thread aborted: runtime error: /cygdrive/d/code1/nginx-master/conf/x-waf/waf.lua:127: attempt to index local 'limit' (a nil value)
+stack traceback:
+coroutine 0:
+	/cygdrive/d/code1/nginx-master/conf/x-waf/waf.lua: in function 'cc_attack_check'
+	/cygdrive/d/code1/nginx-master/conf/x-waf/waf.lua:278: in function 'check'
+	/cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:24: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:50:41 [notice] 9583#0: *2 [lua] waf.lua:52: white_ip_check(): white_ip_check, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:50:41 [notice] 9583#0: *2 [lua] waf.lua:84: black_ip_check(): black_ip_check, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:50:41 [notice] 9583#0: *2 [lua] waf.lua:213: user_agent_attack_check(): user_agent_attack_check, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:50:41 [notice] 9583#0: *2 [lua] waf.lua:104: white_url_check(): white_url_check, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:50:41 [notice] 9583#0: *2 [lua] waf.lua:167: url_attack_check(): url_attack_check, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:50:41 [notice] 9583#0: *2 [lua] waf.lua:120: cc_attack_check(): cc_attack_check, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:50:41 [error] 9583#0: *2 lua entry thread aborted: runtime error: /cygdrive/d/code1/nginx-master/conf/x-waf/waf.lua:127: attempt to index local 'limit' (a nil value)
+stack traceback:
+coroutine 0:
+	/cygdrive/d/code1/nginx-master/conf/x-waf/waf.lua: in function 'cc_attack_check'
+	/cygdrive/d/code1/nginx-master/conf/x-waf/waf.lua:278: in function 'check'
+	/cygdrive/d/code1/nginx-master/conf/x-waf/access.lua:24: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:51:41 [info] 9583#0: *3 client timed out (116: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/11/23 10:52:52 [notice] 9598#0: using the "select" event method
+2022/11/23 10:52:52 [notice] 9598#0: nginx/1.23.2
+2022/11/23 10:52:52 [notice] 9598#0: built by gcc 9.3.0 (GCC) 
+2022/11/23 10:52:52 [notice] 9598#0: getrlimit(RLIMIT_NOFILE): 256:3200
+2022/11/23 10:53:19 [notice] 9613#0: using the "select" event method
+2022/11/23 10:53:19 [notice] 9613#0: nginx/1.23.2
+2022/11/23 10:53:19 [notice] 9613#0: built by gcc 9.3.0 (GCC) 
+2022/11/23 10:53:19 [notice] 9613#0: getrlimit(RLIMIT_NOFILE): 256:3200
+2022/11/23 10:53:32 [notice] 9613#0: *1 [lua] waf.lua:52: white_ip_check(): white_ip_check, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 10:53:32 [notice] 9613#0: *1 [lua] waf.lua:84: black_ip_check(): black_ip_check, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 10:53:32 [notice] 9613#0: *1 [lua] waf.lua:213: user_agent_attack_check(): user_agent_attack_check, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 10:53:32 [notice] 9613#0: *1 [lua] waf.lua:104: white_url_check(): white_url_check, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 10:53:32 [notice] 9613#0: *1 [lua] waf.lua:167: url_attack_check(): url_attack_check, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 10:53:32 [notice] 9613#0: *1 [lua] waf.lua:146: cookie_attack_check(): cookie_attack_check, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 10:53:32 [notice] 9613#0: *1 [lua] waf.lua:186: url_args_attack_check(): url_args_attack_check, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 10:53:32 [notice] 9613#0: *1 [lua] waf.lua:234: post_attack_check(): post_attack_check, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 10:53:32 [notice] 9613#0: *1 [lua] waf.lua:52: white_ip_check(): white_ip_check, client: 127.0.0.1, server: localhost, request: "GET /js/layui.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:32 [notice] 9613#0: *1 [lua] waf.lua:84: black_ip_check(): black_ip_check, client: 127.0.0.1, server: localhost, request: "GET /js/layui.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:32 [notice] 9613#0: *1 [lua] waf.lua:213: user_agent_attack_check(): user_agent_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/layui.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:32 [notice] 9613#0: *1 [lua] waf.lua:104: white_url_check(): white_url_check, client: 127.0.0.1, server: localhost, request: "GET /js/layui.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:32 [notice] 9613#0: *1 [lua] waf.lua:167: url_attack_check(): url_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/layui.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:32 [notice] 9613#0: *1 [lua] waf.lua:146: cookie_attack_check(): cookie_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/layui.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:32 [notice] 9613#0: *1 [lua] waf.lua:186: url_args_attack_check(): url_args_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/layui.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:32 [notice] 9613#0: *1 [lua] waf.lua:234: post_attack_check(): post_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/layui.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:32 [notice] 9613#0: *2 [lua] waf.lua:52: white_ip_check(): white_ip_check, client: 127.0.0.1, server: localhost, request: "GET /js/axios.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:32 [notice] 9613#0: *2 [lua] waf.lua:84: black_ip_check(): black_ip_check, client: 127.0.0.1, server: localhost, request: "GET /js/axios.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:32 [notice] 9613#0: *2 [lua] waf.lua:213: user_agent_attack_check(): user_agent_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/axios.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:32 [notice] 9613#0: *2 [lua] waf.lua:104: white_url_check(): white_url_check, client: 127.0.0.1, server: localhost, request: "GET /js/axios.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:32 [notice] 9613#0: *2 [lua] waf.lua:167: url_attack_check(): url_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/axios.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:32 [notice] 9613#0: *2 [lua] waf.lua:146: cookie_attack_check(): cookie_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/axios.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:32 [notice] 9613#0: *2 [lua] waf.lua:186: url_args_attack_check(): url_args_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/axios.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:32 [notice] 9613#0: *2 [lua] waf.lua:234: post_attack_check(): post_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/axios.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:52: white_ip_check(): white_ip_check, client: 127.0.0.1, server: localhost, request: "GET /js/layui.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:84: black_ip_check(): black_ip_check, client: 127.0.0.1, server: localhost, request: "GET /js/layui.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:213: user_agent_attack_check(): user_agent_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/layui.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:104: white_url_check(): white_url_check, client: 127.0.0.1, server: localhost, request: "GET /js/layui.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:167: url_attack_check(): url_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/layui.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:146: cookie_attack_check(): cookie_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/layui.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:186: url_args_attack_check(): url_args_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/layui.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:234: post_attack_check(): post_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/layui.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:52: white_ip_check(): white_ip_check, client: 127.0.0.1, server: localhost, request: "GET /js/jquery.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:84: black_ip_check(): black_ip_check, client: 127.0.0.1, server: localhost, request: "GET /js/jquery.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:213: user_agent_attack_check(): user_agent_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/jquery.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:104: white_url_check(): white_url_check, client: 127.0.0.1, server: localhost, request: "GET /js/jquery.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:167: url_attack_check(): url_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/jquery.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:146: cookie_attack_check(): cookie_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/jquery.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:186: url_args_attack_check(): url_args_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/jquery.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:234: post_attack_check(): post_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/jquery.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:52: white_ip_check(): white_ip_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/form.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:84: black_ip_check(): black_ip_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/form.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:213: user_agent_attack_check(): user_agent_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/form.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:104: white_url_check(): white_url_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/form.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:167: url_attack_check(): url_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/form.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:146: cookie_attack_check(): cookie_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/form.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:186: url_args_attack_check(): url_args_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/form.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:234: post_attack_check(): post_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/form.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:52: white_ip_check(): white_ip_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/layer.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:84: black_ip_check(): black_ip_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/layer.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:213: user_agent_attack_check(): user_agent_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/layer.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:104: white_url_check(): white_url_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/layer.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:167: url_attack_check(): url_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/layer.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:146: cookie_attack_check(): cookie_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/layer.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:186: url_args_attack_check(): url_args_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/layer.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:234: post_attack_check(): post_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/layer.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:52: white_ip_check(): white_ip_check, client: 127.0.0.1, server: localhost, request: "GET /js/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:84: black_ip_check(): black_ip_check, client: 127.0.0.1, server: localhost, request: "GET /js/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:213: user_agent_attack_check(): user_agent_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:104: white_url_check(): white_url_check, client: 127.0.0.1, server: localhost, request: "GET /js/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:167: url_attack_check(): url_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:146: cookie_attack_check(): cookie_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:186: url_args_attack_check(): url_args_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:234: post_attack_check(): post_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *1 [lua] waf.lua:52: white_ip_check(): white_ip_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/layedit.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *1 [lua] waf.lua:84: black_ip_check(): black_ip_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/layedit.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *1 [lua] waf.lua:213: user_agent_attack_check(): user_agent_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/layedit.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *1 [lua] waf.lua:104: white_url_check(): white_url_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/layedit.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *1 [lua] waf.lua:167: url_attack_check(): url_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/layedit.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *1 [lua] waf.lua:146: cookie_attack_check(): cookie_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/layedit.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *1 [lua] waf.lua:186: url_args_attack_check(): url_args_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/layedit.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *1 [lua] waf.lua:234: post_attack_check(): post_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/layedit.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:52: white_ip_check(): white_ip_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/laydate.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:84: black_ip_check(): black_ip_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/laydate.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:213: user_agent_attack_check(): user_agent_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/laydate.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:104: white_url_check(): white_url_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/laydate.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:167: url_attack_check(): url_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/laydate.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:146: cookie_attack_check(): cookie_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/laydate.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:186: url_args_attack_check(): url_args_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/laydate.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:234: post_attack_check(): post_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/lay/modules/laydate.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:52: white_ip_check(): white_ip_check, client: 127.0.0.1, server: localhost, request: "GET /js/css/modules/laydate/default/laydate.css?v=5.0.9 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:84: black_ip_check(): black_ip_check, client: 127.0.0.1, server: localhost, request: "GET /js/css/modules/laydate/default/laydate.css?v=5.0.9 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:213: user_agent_attack_check(): user_agent_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/css/modules/laydate/default/laydate.css?v=5.0.9 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:104: white_url_check(): white_url_check, client: 127.0.0.1, server: localhost, request: "GET /js/css/modules/laydate/default/laydate.css?v=5.0.9 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:167: url_attack_check(): url_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/css/modules/laydate/default/laydate.css?v=5.0.9 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:146: cookie_attack_check(): cookie_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/css/modules/laydate/default/laydate.css?v=5.0.9 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:186: url_args_attack_check(): url_args_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/css/modules/laydate/default/laydate.css?v=5.0.9 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:234: post_attack_check(): post_attack_check, client: 127.0.0.1, server: localhost, request: "GET /js/css/modules/laydate/default/laydate.css?v=5.0.9 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:52: white_ip_check(): white_ip_check, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:84: black_ip_check(): black_ip_check, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:213: user_agent_attack_check(): user_agent_attack_check, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:104: white_url_check(): white_url_check, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:167: url_attack_check(): url_attack_check, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:146: cookie_attack_check(): cookie_attack_check, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:186: url_args_attack_check(): url_args_attack_check, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:33 [notice] 9613#0: *2 [lua] waf.lua:234: post_attack_check(): post_attack_check, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 10:53:44 [notice] 9613#0: *2 [lua] waf.lua:52: white_ip_check(): white_ip_check, client: 127.0.0.1, server: localhost, request: "GET /?id=select%20*%20from%20aaa HTTP/1.1", host: "localhost"
+2022/11/23 10:53:44 [notice] 9613#0: *2 [lua] waf.lua:84: black_ip_check(): black_ip_check, client: 127.0.0.1, server: localhost, request: "GET /?id=select%20*%20from%20aaa HTTP/1.1", host: "localhost"
+2022/11/23 10:53:44 [notice] 9613#0: *2 [lua] waf.lua:213: user_agent_attack_check(): user_agent_attack_check, client: 127.0.0.1, server: localhost, request: "GET /?id=select%20*%20from%20aaa HTTP/1.1", host: "localhost"
+2022/11/23 10:53:44 [notice] 9613#0: *2 [lua] waf.lua:104: white_url_check(): white_url_check, client: 127.0.0.1, server: localhost, request: "GET /?id=select%20*%20from%20aaa HTTP/1.1", host: "localhost"
+2022/11/23 10:53:44 [notice] 9613#0: *2 [lua] waf.lua:167: url_attack_check(): url_attack_check, client: 127.0.0.1, server: localhost, request: "GET /?id=select%20*%20from%20aaa HTTP/1.1", host: "localhost"
+2022/11/23 10:53:44 [notice] 9613#0: *2 [lua] waf.lua:146: cookie_attack_check(): cookie_attack_check, client: 127.0.0.1, server: localhost, request: "GET /?id=select%20*%20from%20aaa HTTP/1.1", host: "localhost"
+2022/11/23 10:53:44 [notice] 9613#0: *2 [lua] waf.lua:186: url_args_attack_check(): url_args_attack_check, client: 127.0.0.1, server: localhost, request: "GET /?id=select%20*%20from%20aaa HTTP/1.1", host: "localhost"
+2022/11/23 10:54:33 [info] 9613#0: *10 client timed out (116: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/11/23 10:54:33 [info] 9613#0: *15 client timed out (116: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/11/23 11:10:15 [notice] 9734#0: using the "select" event method
+2022/11/23 11:10:15 [notice] 9734#0: nginx/1.23.2
+2022/11/23 11:10:15 [notice] 9734#0: built by gcc 9.3.0 (GCC) 
+2022/11/23 11:10:15 [notice] 9734#0: getrlimit(RLIMIT_NOFILE): 256:3200
+2022/11/23 12:18:18 [emerg] 9749#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2022/11/23 12:18:18 [notice] 9749#0: try again to bind() after 500ms
+2022/11/23 12:18:18 [emerg] 9749#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2022/11/23 12:18:18 [notice] 9749#0: try again to bind() after 500ms
+2022/11/23 12:18:18 [emerg] 9749#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2022/11/23 12:18:18 [notice] 9749#0: try again to bind() after 500ms
+2022/11/23 12:18:18 [emerg] 9749#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2022/11/23 12:18:18 [notice] 9749#0: try again to bind() after 500ms
+2022/11/23 12:18:18 [emerg] 9749#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2022/11/23 12:18:18 [notice] 9749#0: try again to bind() after 500ms
+2022/11/23 12:18:18 [emerg] 9749#0: still could not bind()
